@@ -1,4 +1,4 @@
-# Gold Price Prediction using Random Forest Regression
+# Golden Insights: Forecasting Gold Prices with Machine Learning
 
 ## Overview
 Gold Price Prediction is a machine learning project aimed at forecasting the price of gold based on historical data. The project utilizes a Random Forest Regression algorithm to make predictions. The dataset used in this project is sourced from Kaggle, comprising 2290 rows and 6 columns, including date and various financial indicators such as S&P 500 index, gold price, oil price, silver price, and EUR/USD exchange rate.
