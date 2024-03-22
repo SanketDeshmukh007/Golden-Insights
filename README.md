@@ -1,7 +1,7 @@
 # Golden Insights: Forecasting Gold Prices with Machine Learning
 
 ## Overview
-Gold Price Prediction is a machine learning project aimed at forecasting the price of gold based on historical data. The project utilizes a Random Forest Regression algorithm to make predictions. The dataset used in this project is sourced from Kaggle, comprising 2290 rows and 6 columns, including date and various financial indicators such as S&P 500 index, gold price, oil price, silver price, and EUR/USD exchange rate.
+Gold Price Prediction is a machine learning project aimed at forecasting the price of gold based on historical data. The project utilizes various regression algorithms, including Linear Regression, Decision Tree Regressor, and Random Forest Regressor, to make predictions. The dataset used in this project is sourced from Kaggle, comprising 2290 rows and 6 columns, including date and various financial indicators such as S&P 500 index, gold price, oil price, silver price, and EUR/USD exchange rate.
 
 ## Dataset
 - **Source:** [Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/gold-price-data/data)
@@ -17,14 +17,16 @@ Gold Price Prediction is a machine learning project aimed at forecasting the pri
 ## Methodology
 1. **Data Collection:** The dataset was obtained from Kaggle, providing historical financial data including gold prices.
 2. **Data Cleaning:** Preprocessing steps were applied to handle missing values, outliers, and ensure data compatibility for training the model.
-3. **Model Training:** Random Forest Regressor algorithm was chosen for training the model, utilizing historical data to learn patterns and relationships between various financial indicators and gold prices.
-4. **Model Testing:** The trained model was evaluated using testing data to assess its accuracy in predicting gold prices.
+3. **Model Training:** Multiple regression algorithms were chosen for training the model, including Linear Regression, Decision Tree Regressor, and Random Forest Regressor. These algorithms utilize historical data to learn patterns and relationships between various financial indicators and gold prices.
+4. **Model Testing:** The trained models were evaluated using testing data to assess their accuracy in predicting gold prices.
 
-## Algorithm
-Random Forest Regressor was selected as the algorithm of choice due to its capability to handle non-linear relationships and ensemble learning, which often leads to robust predictions in regression tasks.
+## Algorithms
+- **Linear Regression:** This algorithm fits a linear model to the relationship between the independent variables (financial indicators) and the dependent variable (gold price). It assumes a linear relationship between the variables.
+- **Decision Tree Regressor:** This algorithm builds a decision tree to predict the value of the target variable based on several input variables. It can handle both numerical and categorical data.
+- **Random Forest Regressor:** This algorithm builds multiple decision trees and merges their predictions to improve accuracy and prevent overfitting. It's suitable for handling non-linear relationships and ensemble learning.
 
 ## Goal
-The primary objective of this project is to predict the price of gold for the current date by leveraging historical records of financial indicators. By employing machine learning techniques, the project aims to provide valuable insights for investors and stakeholders in the gold market.
+The primary objective of this project is to predict the price of gold for the current date by leveraging historical records of financial indicators. By employing various regression algorithms, the project aims to provide valuable insights for investors and stakeholders in the gold market.
 
 ## Conclusion
-Gold Price Prediction using Random Forest Regression offers a promising approach to forecast gold prices based on historical trends and related financial indicators. By harnessing the power of machine learning, this project contributes to enhancing decision-making processes in the gold market, enabling stakeholders to make informed investment decisions.
+Gold Price Prediction using regression algorithms offers a promising approach to forecast gold prices based on historical trends and related financial indicators. By harnessing the power of machine learning, this project contributes to enhancing decision-making processes in the gold market, enabling stakeholders to make informed investment decisions. Based on the evaluation, Linear Regression has shown higher accuracy among the three models, making it the preferred choice for final predictions.
