@@ -1,7 +1,7 @@
 # Golden Insights: Forecasting Gold Prices with Machine Learning
 
 ## Overview
-Gold Price Prediction is a machine learning project aimed at forecasting the price of gold based on historical data. The project utilizes various regression algorithms, including Linear Regression, Decision Tree Regressor, and Random Forest Regressor, to make predictions. The dataset used in this project is sourced from Kaggle, comprising 2290 rows and 6 columns, including date and various financial indicators such as S&P 500 index, gold price, oil price, silver price, and EUR/USD exchange rate.
+Golden Insights is a machine learning project aimed at forecasting the price of gold based on historical data. The project utilizes various regression algorithms, including Linear Regression, Decision Tree Regressor, and Random Forest Regressor, to make predictions. The dataset used in this project is sourced from Kaggle, comprising 2290 rows and 6 columns, including date and various financial indicators such as S&P 500 index, gold price, oil price, silver price, and EUR/USD exchange rate.
 
 ## Dataset
 - **Source:** [Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/gold-price-data/data)
